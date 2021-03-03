@@ -233,7 +233,10 @@ def gc_content(sequence, as_decimal=True):
             if base in accepted_bases:  # S is a G or C
                 gc_total += count
 
-    result = gc_total / num_bases
+    try:
+        result = gc_total / num_bases
+    except ZeroDivisionError:
+        result = 0.0
 
     if not as_decimal:  # return as percentage
         result *= 100
