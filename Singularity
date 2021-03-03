@@ -18,7 +18,7 @@ MirrorURL: http://us.archive.ubuntu.com/ubuntu/
     # INSTALL pistis
     # ================================
     NAME="pistis"
-    VERSION="0.3.3"
+    VERSION="0.3.4"
     TARBALL="${NAME}.tar.gz"
     URL="https://github.com/mbhall88/${NAME}/archive/v${VERSION}.tar.gz"
     SHA256="152938e16ecd6f2997f17018ba9f56050f54871707d2f5fe5eb47a3d8810d943"
